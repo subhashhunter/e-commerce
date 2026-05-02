@@ -2,7 +2,9 @@
 
 A full-stack e-commerce web application built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It features a customer-facing storefront, a dedicated admin dashboard, and a RESTful backend API — all deployed and live.
 
-🔗 **Live Demo:** [e-commerce-frontend-kappa-self.vercel.app](https://e-commerce-frontend-kappa-self.vercel.app)
+🔗 **Live Demo:**
+Frontend:[e-commerce-frontend-kappa-self.vercel.app](https://e-commerce-frontend-kappa-self.vercel.app)
+AdminPanel:https://e-commerce-admin-ashy-zeta.vercel.app
 
 ---
 
