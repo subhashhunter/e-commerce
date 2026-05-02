@@ -16,7 +16,7 @@ const Contact = () => {
         <p>54709 Willms Station</p>
 
         <p>Tel: (415) 555-0132</p>
-        <p>Email: admin@forever.com</p>
+        <p>Email: admin@gmail.com</p>
 
       </div>
 

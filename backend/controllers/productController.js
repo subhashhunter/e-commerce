@@ -13,12 +13,14 @@ const addProduct=async(req,res)=>{
        
        const images=[image1,image2,image3,image4].filter((item)=>item!=undefined)
 
+
        let imageUrl=await Promise.all(
         images.map(async(item)=>{
             let result=await cloudinary.uploader.upload(item.path,{resource_type:'image'})
             return result.secure_url
         })
        )
+       
     //    console.log(name,description,price,category,subCategory,sizes, bestseller)
     //    console.log(image1,image2,image3,image4)
     //    console.log(imageUrl)

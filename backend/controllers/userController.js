@@ -7,8 +7,8 @@ const createToken=(id)=>{
     return jwt.sign({id},process.env.JWT_SECRET)
 }
 const loginUser=async(req,res)=>{
+    
     try {
-
         const {email,password}=req.body
         const user=await userModel.findOne({email})
 
