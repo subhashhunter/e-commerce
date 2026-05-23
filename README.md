@@ -54,7 +54,7 @@ e-commerce/
 | Backend   | Node.js, Express.js                 |
 | Database  | MongoDB, Mongoose                   |
 | Auth      | JSON Web Tokens (JWT)               |
-| Deployment| Vercel (Frontend & Admin), Render/Railway (Backend) |
+| Deployment| Vercel                              |
 
 ---
 
