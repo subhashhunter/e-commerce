@@ -35,8 +35,7 @@ function App() {
         <Route path='/place-order' element={<PlaceOrder/>}/>
         <Route path='/orders' element={<Orders/>}/> 
          <Route path='/verify' element={<Verify/>}/> 
-         
-         
+        
       </Routes>
       <Footer/>
     </div>
